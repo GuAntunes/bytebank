@@ -1,15 +1,15 @@
-class Conta(var titular: String, var numero: Int) {
+open class Conta(var titular: String, var numero: Int) {
     var saldo = 0.0
         private set
 
-    fun deposita(valor: Double) {
+    fun deposita(saldo: Double) {
         if (saldo > 0)
-            this.saldo += valor
+            this.saldo += saldo
     }
 
-    fun saca(valor: Double) {
-        if (saldo >= valor) {
-            saldo -= valor
+    open fun saca(saldo: Double) {
+        if (saldo >= saldo) {
+            this.saldo -= saldo
         }
     }
 
