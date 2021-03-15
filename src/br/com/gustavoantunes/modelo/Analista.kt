@@ -1,3 +1,5 @@
+package br.com.gustavoantunes.modelo
+
 class Analista(
     nome: String,
     cpf: String,

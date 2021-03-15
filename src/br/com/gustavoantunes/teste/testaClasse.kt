@@ -1,3 +1,6 @@
+import br.com.gustavoantunes.modelo.ContaCorrente
+import br.com.gustavoantunes.modelo.ContaPoupanca
+
 fun testaClasse() {
     val conta = ContaPoupanca("Maria dos Prazeres", 1001)
     conta.deposita(200.0)

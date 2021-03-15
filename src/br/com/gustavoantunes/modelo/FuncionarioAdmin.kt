@@ -1,3 +1,5 @@
+package br.com.gustavoantunes.modelo
+
 abstract class FuncionarioAdmin(
     nome: String,
     cpf: String,

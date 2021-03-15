@@ -1,3 +1,5 @@
+package br.com.gustavoantunes.modelo
+
 abstract class Conta(
     var titular: String,
     var numero: Int

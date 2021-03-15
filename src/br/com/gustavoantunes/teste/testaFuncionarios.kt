@@ -1,3 +1,8 @@
+import br.com.gustavoantunes.modelo.Analista
+import br.com.gustavoantunes.modelo.CalcularaBonificacao
+import br.com.gustavoantunes.modelo.Diretor
+import br.com.gustavoantunes.modelo.Gerente
+
 fun testaFuncionarios() {
     val gustavo = Analista(
         nome = "Gustavo",

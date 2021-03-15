@@ -1,3 +1,8 @@
+import br.com.gustavoantunes.modelo.Cliente
+import br.com.gustavoantunes.modelo.Diretor
+import br.com.gustavoantunes.modelo.Gerente
+import br.com.gustavoantunes.modelo.SistemaInterno
+
 fun testaAutenticacao() {
     val gerente = Gerente(
         nome = "Gustavo",
@@ -15,7 +20,7 @@ fun testaAutenticacao() {
     )
 
     val cliente = Cliente(
-        nome = "Cliente 1",
+        nome = "br.com.gustavoantunes.modelo.Cliente 1",
         cpf = "333.333.333-33",
         senha = 1234
     )

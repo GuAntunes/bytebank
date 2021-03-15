@@ -1,3 +1,5 @@
+package br.com.gustavoantunes.modelo
+
 class ContaCorrente(
     titular: String,
     numero: Int

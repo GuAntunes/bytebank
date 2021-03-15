@@ -1,3 +1,5 @@
+package br.com.gustavoantunes.modelo
+
 class ContaPoupanca(
     titular: String,
     numero: Int
