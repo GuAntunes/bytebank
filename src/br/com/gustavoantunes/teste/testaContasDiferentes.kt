@@ -1,14 +1,19 @@
+import br.com.gustavoantunes.modelo.Cliente
 import br.com.gustavoantunes.modelo.ContaCorrente
 import br.com.gustavoantunes.modelo.ContaPoupanca
 
 fun testaContasDiferentes() {
+    val alex = Cliente(nome = "Alex", cpf = "", senha = 3)
+
     val contaCorrente = ContaCorrente(
-        titular = "Alex",
+        titular = alex,
         numero = 1000
     )
 
+    val fran = Cliente(nome = "Fran", cpf = "", senha = 4)
+
     val contaPoupanca = ContaPoupanca(
-        titular = "fran",
+        titular = fran,
         numero = 1001
     )
 
